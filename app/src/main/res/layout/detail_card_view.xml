@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:background="@color/explainTextColor"
+    android:layout_height="360dp"
+    android:padding="16dp"
+    android:fitsSystemWindows="true"
+    app:cardBackgroundColor="@color/detailCardViewBackground"
+    app:cardCornerRadius="15dp">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/detail_content_poster"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="8dp"
+            android:padding="6dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:layout_marginRight="6dp"
+            android:text="dksamjdkfnds"
+            android:textColor="@color/explainTextColor"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/detail_content_poster"
+            app:layout_constraintLeft_toRightOf="@+id/detail_content_poster"
+            app:layout_constraintTop_toTopOf="@id/detail_content_poster" />
+
+        <TextView
+            android:id="@+id/snop_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/TextColor"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:layout_constraintLeft_toLeftOf="@id/name_textView"
+            app:layout_constraintRight_toRightOf="@id/name_textView"
+            app:layout_constraintTop_toBottomOf="@+id/name_textView"
+            tools:text="fjkdnfdj" />
+
+        <TextView
+            android:id="@+id/explain_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/explainTextColor"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_content_poster" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
+</LinearLayout>

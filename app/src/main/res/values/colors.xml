@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="layoutBackground">#1C1124</color>
+    <color name="cardViewBackground">#4C0B2F</color>
+    <color name="TextColor">#74B49B</color>
+    <color name="descColor">#F8EEB4</color>
+    <color name="explainTextColor">#FE7847</color>
+    <color name="detailCardViewBackground">#092A35</color>
+    <color name="viewBackground">#2e2e2e</color>
+    <color name="splashTextColor">#474168</color>
+    <color name="splashViewColor">#4b4b4b</color>
+</resources>

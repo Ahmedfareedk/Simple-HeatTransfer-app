@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardViewBackground"
+    tools:context="com.example.amedfareed.heattransfer.SplashScreen">
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/seldom_view"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/finalseldom"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        app:layout_constraintBottom_toTopOf="@id/heat_transfer_text"
+        android:background="@color/splashViewColor"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="@id/heat_transfer_text"
+        app:layout_constraintRight_toRightOf="@id/heat_transfer_text"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heat_transfer_text"
+        android:text="@string/heat_transfer_label"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:textColor="@color/splashTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="@id/btn_loading"
+        app:layout_constraintLeft_toLeftOf="@id/btn_loading"
+        android:textSize="35sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ahmedfareed"
+        android:id="@+id/myname"
+        android:paddingBottom="8dp"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/heat_transfer_text"
+        app:layout_constraintRight_toRightOf="@id/heat_transfer_text"
+        app:layout_constraintLeft_toLeftOf="@id/heat_transfer_text"
+        android:textColor="@android:color/white"/>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        app:layout_constraintBottom_toBottomOf="@id/myname"
+        android:background="@color/splashViewColor"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="@id/myname"
+        app:layout_constraintRight_toRightOf="@id/myname"
+        />
+
+
+    <ImageView
+        android:id="@+id/btn_loading"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/loading"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

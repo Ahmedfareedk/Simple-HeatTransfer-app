@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Heat Transfer</string>
+    <string name="details">Details</string>
+
+    <string name="heat_transfer_brief">
+        Heat transfer is a discipline of thermal engineering that concerns the
+        exchange of thermal energy (heat) between physical systems.
+        Heat transfer is classified into various mechanisms, such as thermal conduction, thermal convection, thermal radiation.
+    </string>
+    <string name="conduction_brief">
+        is the movement of heat from one solid to another one that has different temperature when they are touching each other.
+        For example, we can warm our hands by touching hot-water bottles.</string>
+    <string name="convection_brief">
+     is the transfer of heat from one place to another by the movement of fluids.
+        Convection is usually the dominant form of heat transfer in liquids and gases.
+        Although often discussed as a distinct method of heat transfer.
+    </string>
+    <string name="radiation_brief">
+        is the transfer of internal energy in the form of
+        electromagnetic waves. For most bodies on the Earth, this radiation lies in
+        the infrared region of the electromagnetic spectrum.
+    </string>
+    <string name="conduction_label">Conduction</string>
+    <string name="conduction_desc"><![CDATA[Solid & Solid]]></string>
+    <string name="convection_desc"><![CDATA[Solid & Fluid]]></string>
+    <string name="convection_label">Convection</string>
+    <string name="radiation_desc"><![CDATA[Heat & Space]]></string>
+    <string name="radiation_label">Radiation</string>
+    <string name="heat_desc">Thermal Exchange</string>
+    <string name="heat_transfer_label">Heat Transfer</string>
+    <string name="videoActivity">Video Conclusion</string>
+    <string name="ahmedfareed">Ahmed Fareed</string>
+</resources>
